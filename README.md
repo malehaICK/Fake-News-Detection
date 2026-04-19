@@ -57,7 +57,8 @@ This reinforced an important lesson: clean data and careful feature preparation 
 </p>
 
 ## Results
-Best Model is <img src="https://img.shields.io/badge/Logistic_Regression-90.62%25-58a6ff?style=for-the-badge&labelColor=0d1117" />
+Best Model 
+<img src="https://img.shields.io/badge/Logistic_Regression-90.62%25-58a6ff?style=for-the-badge&labelColor=0d1117" />
 ## Citation
 
 If you use this work, please cite our Springer Nature chapter:
