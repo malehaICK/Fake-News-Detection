@@ -50,7 +50,90 @@ This reinforced an important lesson: clean data and careful feature preparation 
 
 ## Results
 
-The best-performing model in this project was Logistic Regression, which achieved **90.62% accuracy** after preprocessing and tuning.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fake News Detection Results</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0d1117;
+      color: white;
+      margin: 0;
+      padding: 40px;
+    }
+    .chart-container {
+      max-width: 900px;
+      margin: auto;
+      background: #161b22;
+      padding: 24px;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="chart-container">
+    <canvas id="modelChart"></canvas>
+  </div>
+
+  <script>
+    const ctx = document.getElementById('modelChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Logistic Regression', 'SVM', 'Bi-LSTM'],
+        datasets: [{
+          label: 'Accuracy (%)',
+          data: [90.62, 88.00, 89.40],
+          backgroundColor: ['#5B8FF9', '#61DDAA', '#F6BD16'],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            labels: {
+              color: 'white'
+            }
+          },
+          title: {
+            display: true,
+            text: 'Fake News Detection Model Comparison',
+            color: 'white',
+            font: {
+              size: 20
+            }
+          }
+        },
+        scales: {
+          x: {
+            ticks: {
+              color: 'white'
+            },
+            grid: {
+              color: '#30363d'
+            }
+          },
+          y: {
+            beginAtZero: true,
+            max: 100,
+            ticks: {
+              color: 'white'
+            },
+            grid: {
+              color: '#30363d'
+            }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
 
 ## Citation
 
