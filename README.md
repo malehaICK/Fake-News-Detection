@@ -48,7 +48,6 @@ This reinforced an important lesson: clean data and careful feature preparation 
   <img src="https://img.shields.io/badge/TensorFlow-58a6ff?style=for-the-badge&logo=tensorflow&logoColor=white" />
 </p>
 
-## Results
 ## Model Performance
 
 <p align="center">
@@ -57,7 +56,8 @@ This reinforced an important lesson: clean data and careful feature preparation 
   <img src="https://img.shields.io/badge/Bi--LSTM-89.40%25-f97583?style=for-the-badge&labelColor=0d1117" />
 </p>
 
-
+## Results
+<img src="https://img.shields.io/badge/Logistic_Regression-90.62%25-58a6ff?style=for-the-badge&labelColor=0d1117" />
 ## Citation
 
 If you use this work, please cite our Springer Nature chapter:
