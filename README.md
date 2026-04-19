@@ -32,11 +32,14 @@ This reinforced an important lesson: clean data and careful feature preparation 
 
 ## Workflow
 
-1. Load the dataset.
-2. Clean and preprocess text.
-3. Extract features.
-4. Train multiple models.
-5. Evaluate and compare results.
+```mermaid
+flowchart LR
+    A[Load Dataset] --> B[Text Cleaning & Preprocessing]
+    B --> C[Feature Extraction]
+    C --> D[Model Training]
+    D --> E[Evaluation]
+    E --> F[Model Comparison & Selection]
+```
 
 ## Tools
 
