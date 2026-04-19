@@ -1,3 +1,17 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=200&section=header&text=Housing%20Price%20Prediction&fontSize=35&fontColor=ffffff" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Model%20Accuracy-99.45%25-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Model-XGBoost-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Completed-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Type-Regression-orange?style=for-the-badge" />
+</p>
+
+<p align="center">
+  A machine learning system for accurate housing price prediction using advanced regression models
+</p>
 # Enhancing Fake News Detection Through Machine Learning and Transfer Learning Methods
 
 This repository contains the code for our Springer Nature book chapter on fake news detection.
