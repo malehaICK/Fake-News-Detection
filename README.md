@@ -49,15 +49,12 @@ This reinforced an important lesson: clean data and careful feature preparation 
 - NLP techniques
 
 ## Results
-
-## Project Stats
-
-<p align="center">
-  <img width="60%" src="https://img.shields.io/badge/Best_Model-Logistic_Regression-58a6ff?style=for-the-badge&labelColor=0d1117" />
-</p>
+## Model Performance
 
 <p align="center">
-  <img width="95%" src="https://img.shields.io/badge/Accuracy-90.62%25-f97583?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Logistic_Regression-90.62%25-58a6ff?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/SVM-88.00%25-38d9a9?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Bi--LSTM-89.40%25-f97583?style=for-the-badge&labelColor=0d1117" />
 </p>
 
 
