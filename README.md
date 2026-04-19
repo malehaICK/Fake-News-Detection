@@ -38,15 +38,15 @@ This reinforced an important lesson: clean data and careful feature preparation 
 4. Train multiple models.
 5. Evaluate and compare results.
 
-## Technologies Used
+## Tools
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- TensorFlow
-- Keras
-- NLP techniques
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--learn-58a6ff?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-58a6ff?style=for-the-badge&logo=tensorflow&logoColor=white" />
+</p>
 
 ## Results
 ## Model Performance
