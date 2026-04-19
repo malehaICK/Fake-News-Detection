@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  A machine learning system for accurate housing price prediction using advanced regression models
+A machine learning system for accurate housing price prediction using advanced regression models
 </p>
-# Enhancing Fake News Detection Through Machine Learning and Transfer Learning Methods
+Enhancing Fake News Detection Through Machine Learning and Transfer Learning Methods
 
 This repository contains the code for our Springer Nature book chapter on fake news detection.
 
