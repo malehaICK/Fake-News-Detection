@@ -57,7 +57,7 @@ This reinforced an important lesson: clean data and careful feature preparation 
 </p>
 
 ## Results
-<img src="https://img.shields.io/badge/<b>Best Model Logistic_Regression-90.62%</b>25-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<b><img src="https://img.shields.io/badge/Best Model Logistic_Regression-90.62%25-58a6ff?style=for-the-badge&labelColor=0d1117" /></b>
 ## Citation
 
 If you use this work, please cite our Springer Nature chapter:
