@@ -28,7 +28,7 @@ This reinforced an important lesson: clean data and careful feature preparation 
 
 ## Repository Contents
 
-- `CSE475_Fake_News_Detection.ipynb` — main notebook with code and experiments.
+- `notebooks/CSE475_Fake_News_Detection.ipynb` — main notebook with code and experiments.
 - `README.md` — project documentation.
 
 ## Workflow
@@ -68,3 +68,46 @@ If you use this work, please cite our Springer Nature chapter:
 
 **Enhancing Fake News Detection Through Machine Learning and Transfer Learning Methods**  
 DOI: `10.1007/978-981-96-6053-7_28`
+
+
+
+## Repository Structure
+
+```text
+Fake-News-Detection/
+├── notebooks/
+│   └── CSE475_Fake_News_Detection.ipynb   # preprocessing, models and experiments
+├── LICENSE
+└── README.md
+```
+
+## How to Run
+
+Step 1. Clone the repository:
+
+```bash
+git clone https://github.com/malehaICK/Fake-News-Detection.git
+cd Fake-News-Detection
+```
+
+Step 2. Install the dependencies:
+
+```bash
+pip install pandas numpy scikit-learn tensorflow matplotlib jupyter
+```
+
+Step 3. Open the notebook and run the cells in order:
+
+```bash
+jupyter notebook notebooks/CSE475_Fake_News_Detection.ipynb
+```
+
+The notebook was developed in Google Colab, so you can also upload it there. Check the data loading cell at the top for the dataset it expects and adjust the file path if you run it locally.
+
+## Author
+
+Maleha Israt Chowdhury. [Portfolio](https://malehaisratchowdhury.netlify.app/)
+
+## License
+
+Released under the MIT License. See the `LICENSE` file.
